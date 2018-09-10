@@ -3,530 +3,218 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="myscript.js"></script> 
+    <style>
+    @font-face {
+    font-family: Vanilla;
+    src: url("./fonts/Vanilla.ttf") format("truetype");
+    }
+    a{
+        font-family: Vanilla
+    }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="myscript.js"></script>
 </head>
 
 <body style="background-color: #F0F0F0;">
-    <div class="header" style="position: fixed;
-        width: 100%;
-        left: 0;
-        right: 0;
-        top: 0;
-        background-color: #F0F0F0;">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="position: absolute;;width: 100%;height: 50%;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators" style="bottom: -40px">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" style="position: relative;width: 100%;height: 100%; background-color:black">
+            <div class="item active" style="height: 100%; padding:20px;">
+                <img src="images/logo.png" alt="Los Angeles" style="height: 100%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        ">
+            </div>
+
+            <div class="item" style="height: 100%; padding:20px;">
+                <img src="images/logo.png" alt="Chicago" style="height: 100%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;">
+                <button type="button" style="position: absolute;
+                         display: block; 
+                         margin-left: auto;
+                         margin-right: auto;
+                         left: 0;
+                         right: 0; 
+                         bottom: 40px;
+                         border-radius: 20px; 
+                         padding:10px;">Click
+                    Me!</button>
+            </div>
+
+            <div class="item" style="height: 100%; padding:20px;">
+                <img src="images/logo.png" alt="New York" style="height: 100%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="content" style="margin-top: 200px">
+        <div class="How-It-Works">
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+        </div>
+        <div class="What-Is-In">
+
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+        </div>
+        <div class="Why-Us">
+
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+                asd<br>
+        </div>
+
+    </div>
+    <div class="header" style="z-index:1000; position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #F0F0F0;">
         <div class="top-bar" style="display: inline-block; width: 100%">
             <div class="user-nav" style="float: right; padding-right: 20px; padding-top: 10px">
                 <a id="sign-up" href="" style="padding-right: 5px; border-right: 1px solid #000000;">Giriş</a>
                 <a id="log-in" href="">Üye ol</a>
             </div>
         </div>
-        <div class="header-bar" style="display: inline-block; width: 900px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;">
+        <div class="header-bar" style="display: inline-block; width:600px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;">
             <img id="logo" src="images/logo.png" alt="" style="width:150px;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    margin-bottom: 40px">
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 40px">
             <nav id="navigation-bar" style="position: absolute; bottom: 10px;">
                 <a href="google.com" style=" padding: 20px">asd</a>
-                <a href="google.com"style=" padding: 20px">asd1</a>
-                <a href="google.com"style=" padding: 20px">asd2</a>
-                <a href="google.com"style=" padding: 20px">asd3</a>
-                <a href="google.com"style=" padding: 20px">asd4</a>
+                <a href="google.com" style=" padding: 20px">asd1</a>
+                <a href="google.com" style=" padding: 20px">asd2</a>
+                <a href="google.com" style=" padding: 20px">asd3</a>
+                <a href="google.com" style=" padding: 20px">asd4</a>
             </nav>
         </div>
     </div>
-    <div class="content" style="margin-top: 200px">
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-            
-            En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.En iyi öğrenme şekli yaparak öğrenmedir!
-            Birbirinden farklı 2 aktiviteyi de
-            daha kolay yapabilsinler diye aktivite
-            yönergesi ve yaptıkları aktiviteleri
-            daha kolay kavrasınlar diye de
-            eğitici bir kitapçık.<br>
-    </div>
-    
 </body>
 
 </html>
