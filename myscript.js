@@ -44,14 +44,14 @@ $window.scroll(function() {
 
 
 function howWorks(){
-    $("html, body").animate({ scrollTop: $('.How-It-Works').offset().top - minimizedHeaderHeight}, 600);
+    $("html, body").animate({ scrollTop: $('#How-It-Works').offset().top - minimizedHeaderHeight}, 600);
 }
 function whatsIn(){
-    $("html, body").animate({ scrollTop: $('.What-Is-In').offset().top - minimizedHeaderHeight}, 600);
+    $("html, body").animate({ scrollTop: $('#What-Is-In').offset().top - minimizedHeaderHeight}, 600);
 }
 function whyUs(){
-    $("html, body").animate({ scrollTop: $('.Why-Us').offset().top - minimizedHeaderHeight}, 600);
+    $("html, body").animate({ scrollTop: $('#Why-Us').offset().top - minimizedHeaderHeight}, 600);
 }
 function prices(){
-    $("html, body").animate({ scrollTop: $('.Prices').offset().top - minimizedHeaderHeight}, 600);
+    $("html, body").animate({ scrollTop: $('#Prices').offset().top - minimizedHeaderHeight}, 600);
 }
